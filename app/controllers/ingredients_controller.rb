@@ -32,7 +32,7 @@ class IngredientsController < ApplicationController
     end
   end
 
-  private 
+  private
 
   def set_ingredient
     @ingredient = Ingredient.find(params[:id])
